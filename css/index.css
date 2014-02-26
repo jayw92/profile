@@ -1,0 +1,105 @@
+@font-face
+{
+   font-family: type1;
+   src: url('../typefonts/type1.ttf');
+}
+
+body {
+   min-height: 1000px;
+   background-color: #ffffff;
+   padding-bottom: 120px;
+}
+
+#footer {
+   text-align: center;
+   color: #ffffff;
+   padding-top: 10px;
+   position: fixed; 
+   bottom: 0;
+   width: 100%;
+   /* Set the fixed height of the footer here */
+   height: 80px;
+   background-color: #092038;
+   border-top:thick solid #89c9f4;
+}
+
+#footer a{
+   color: #89c9f4;
+   text-decoration: none;
+}
+#footer a:visited {color: #89c9f4; text-decoration: none;}
+#footer a:hover {color: #ffffff; text-decoration: none;}
+#footer a:active {color: #89c9f4; text-decoration: none;}
+
+.navbar-static-top{
+   padding-top: 10px;
+   padding-bottom: 10px;
+   background-color: #092038;
+   border-bottom:thick solid #89c9f4;
+}
+
+.main-nav{
+   font-family: 'Veranda', sans-serif;
+   font-weight: bold;
+   font-size: 14px;
+}
+.main-nav ul{
+   text-align: center;
+}
+.main-nav ul li{
+   padding-right: 5%;
+   display: inline;
+}
+
+.navbar-title{
+   padding-left: 3%; 
+   font-family: type1;
+   color: #89c9f4;
+   font-size: 50px;
+   text-decoration: none;
+}
+.navbar-title:visited {color: #89c9f4; text-decoration: none;}
+.navbar-title:hover {color: #ffffff; text-decoration: none;}
+.navbar-title:active {color: #89c9f4; text-decoration: none;}
+
+.nav-link{
+   color: #e6e7e7;
+   text-decoration: none;
+}
+.nav-link:visited {color: #e6e7e7; text-decoration: none;}
+.nav-link:hover {color: #ffffff; text-decoration: none;}
+.nav-link:active {color: #e6e7e7; text-decoration: none;}
+
+.nav-link-active{
+   color: #89c9f4;
+   text-decoration: none;
+}
+.nav-link-active:visited {color: #89c9f4; text-decoration: none;}
+.nav-link-active:hover {color: #ffffff; text-decoration: none;}
+.nav-link-active:active {color: #89c9f4; text-decoration: none;}
+
+
+.body-contents{
+   
+}
+
+.pdf-object{
+   
+   width: 80%;
+   height: 1200px;
+}
+
+.bar-content{
+   background-color: #cce1f5;
+   border-left-style: solid;
+   border-left-width: 5px;
+   border-left-color: #0066cc;
+   padding: 10px;
+}
+
+.page-header-box{
+   border-bottom-style: solid;
+   border-bottom-width: 5px;
+   border-bottom-color: #0066cc;
+   padding: 10px;
+}
