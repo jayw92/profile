@@ -8,7 +8,7 @@
       <meta name="author" content="Jay Wang">
       <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
 
-      <title>JAY WANG - HOME</title>
+      <title>Jay Wang - Contact Me</title>
 
       <!-- Bootstrap core CSS -->
       <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -22,56 +22,119 @@
    </head>
 
    <body>
-         <!-- Fixed navbar -->
-         <div class="navbar navbar-default navbar-static-top" role="navigation">
-            <div class="container">
-               <div>
+      <!-- Fixed navbar -->
+      <div class="navbar-static-top contact-bg">
+         <div class="container">
+            <div class="logo-title"><a class="navbar-title" name="top" href="index.html">Jay Wang</a></div>
+         </div>
+      </div>
+
+      <div class="row navlinks">
+         <div class="col-xs-12 col-md-3">
+            <a class="nav-link" href="business.html"><span class="glyphicon glyphicon-briefcase"></span>  PROFESSIONAL PROFILE</a>
+         </div><div class="clearfix visible-xs"></div>
+         <div class="col-xs-12 col-md-3">
+            <a class="nav-link" href="projects.html"><span class="glyphicon glyphicon-folder-open"></span>  MY PROJECTS</a>
+         </div><div class="clearfix visible-xs"></div>
+         <div class="col-xs-12 col-md-3">
+            <a class="nav-link" href="social.html"><span class="glyphicon glyphicon-thumbs-up"></span>  SOCIAL PROFILES</a>
+         </div><div class="clearfix visible-xs"></div>
+         <div class="col-xs-12 col-md-3">
+            <a class="nav-link-active" href="contact.html"><span class="glyphicon glyphicon-envelope"></span>  CONTACT ME</a>
+         </div><div class="clearfix visible-xs"></div>
+      </div>
+
+      <div class="container"><br>
+         <div class="row">
+            <div class="col-md-6">
+               <div class="well well-sm">
+                  <form action="MAILTO:jaywangpro@gmail.com" method="post" enctype="text/plain">
+                     <div class="row">
+                        <div class="col-md-12">
+                           <h1>Send me an Email</h1>
+                           <div class="form-group">
+                              <label for="name">
+                                 Name</label>
+                              <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                           </div>
+                           <div class="form-group">
+                              <label for="email">
+                                 Email Address</label>
+                              <div class="input-group">
+                                 <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                 </span>
+                                 <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+                           </div>
+                        </div>
+                        <div class="col-md-12">
+                           <div class="form-group">
+                              <label for="message">
+                                 Message</label>
+                              <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                        placeholder="Message"></textarea>
+                           </div>
+                        </div>
+                        <div class="col-md-12">
+                           <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                              Send Message</button>
+                        </div>
+                     </div>
+                  </form>
                </div>
-               <div class="main-nav">
-                  <a  name="top" class="navbar-title" href="index.html">JAY WANG</a>
-                  <ul>
-                     <li><a class="nav-link-active" href="index.html"><span class="glyphicon glyphicon-home"></span>  HOME</a></li>
-                     <li><a class="nav-link" href="business.html"><span class="glyphicon glyphicon-briefcase"></span>  BUSINESS PROFILE</a></li>
-                     <li><a class="nav-link" href="projects.html"><span class="glyphicon glyphicon-folder-open"></span>  MY PROJECTS</a></li>
-                     <li><a class="nav-link" href="social.html"><span class="glyphicon glyphicon-thumbs-up"></span>  SOCIAL PROFILES</a></li>
-                     <li><a class="nav-link" href="contact.html"><span class="glyphicon glyphicon-envelope"></span>  CONTACT ME</a></li>
-                  </ul>
-                  <!--               
-                                 <ul class="nav navbar-nav navbar-right">
-                                    <li><a href="../navbar/">Default</a></li>
-                                    <li><a href="../navbar-static-top/">Static top</a></li>
-                                    <li class="active"><a href="./">Fixed top</a></li>
-                                 </ul>-->
-               </div><!--/.nav-collapse -->
+            </div>
+            <div class="col-md-4">
+               <form>
+                  <legend><span class="glyphicon glyphicon-globe"></span> Contact Info</legend>
+                  <address>
+                     <strong>Jay Wang</strong><br>
+                     83 Hano St<br>
+                     Allston, MA 02134<br>
+                     <abbr title="Cell Number">
+                        C:</abbr>
+                     (857) 753-7882<br>
+                     Email: <a href="mailto:#">jaywangpro@gmail.com</a><br>
+                     <strong>OR</strong> <a href="social.html">Connect through popular Social Media</a>
+                  </address>
+                  <div class="alert alert-danger">Prefer to be contacted through <strong>email or other social apps</strong> if we have not spoken before.</div>
+               </form>
+               <form>
+                  <div id="disqus_thread"></div>
+                  <script type="text/javascript">
+                     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                     var disqus_shortname = 'jayw92'; // required: replace example with your forum shortname
+
+                     /* * * DON'T EDIT BELOW THIS LINE * * */
+                     (function() {
+                        var dsq = document.createElement('script');
+                        dsq.type = 'text/javascript';
+                        dsq.async = true;
+                        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                     })();
+                  </script>
+                  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                  <a href="http://disqus.com" class="dsq-brlink">Comments powered by <span class="logo-disqus">Disqus</span></a>
+
+               </form><hr>
             </div>
          </div>
 
-         <div class="container body-contents">
 
 
-            <div class="div-block">
-               <h1>JAY WANG</h1>
-               <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-               <p>To see the difference between static and fixed top navbars, just scroll.</p>
-               <p>
-                  <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
-               </p>
-            </div>
+      </div>
 
+      <div id="footer">
+         <div class="container">
+            <p><a class="footer-link" href="#top"><span class="glyphicon glyphicon-chevron-up"></span> Back To Top <span class="glyphicon glyphicon-chevron-up"></span></a></p>
+            <p>© 2014 Jay Wang. All Rights reserved.</p>
          </div>
-
-         <div id="footer">
-            <div class="container">
-               <p><a class="footer-link" href="#top"><span class="glyphicon glyphicon-chevron-up"></span> Back To Top <span class="glyphicon glyphicon-chevron-up"></span></a></p>
-               <p>© 2014 Jay Wang. All Rights reserved.</p>
-            </div>
-         </div>
+      </div>
 
 
-         <!-- Bootstrap core JavaScript
-         ================================================== -->
-         <!-- Placed at the end of the document so the pages load faster -->
-         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-         <script src="js/bootstrap.min.js"></script>
+      <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
    </body>
 </html>
