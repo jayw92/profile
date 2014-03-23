@@ -4,32 +4,59 @@
    src: url('../typefonts/type1.ttf');
 }
 
-body {
-   min-height: 1000px;
-   background-color: #ffffff;
-   padding-bottom: 100px;
-}
-
-#footer {
-   text-align: center;
-   color: #ffffff;
-   padding-top: 10px;
-   position: fixed; 
-   bottom: 0;
-   width: 100%;
-   /* Set the fixed height of the footer here */
-   height: 80px;
-   background-color: #092038;
-   border-top:thick solid #89c9f4;
-}
-
-#footer a{
-   color: #89c9f4;
+.back-to-top {
+   position: fixed;
+   bottom: 2em;
+   right: 2em;
    text-decoration: none;
+   color: #fbfcfd;
+   background-color: #333333;
+   font-size: 13px;
+   display: none;
 }
-#footer a:visited {color: #89c9f4; text-decoration: none;}
-#footer a:hover {color: #ffffff; text-decoration: none;}
-#footer a:active {color: #89c9f4; text-decoration: none;}
+
+p{
+   font-size: 15px;
+}
+
+.back-to-top:hover {    
+   background-color: #18356e;
+}
+
+.content{
+   color:#3b3b3c;
+}
+
+#gallery{
+   color: #ffffff;
+   background-color: #222121;
+   padding-bottom: 10px;
+}
+
+.topMenuButton{
+   color:#3399ff;
+   font-size: 13px;
+   border : 0;
+   outline: 0;
+   background: none;
+   font-weight: bold;
+}.topMenuButton:hover{
+   color: #d1ddf5;
+   font-size: 13px;
+   border : 0;
+   outline: 0;
+   background: none;
+}
+
+#footer{
+	width: 100%;
+	font-size: 15px;
+	line-height: 2.2;
+	font-weight: 400;
+   padding-top: 10px;
+   background: #2a2929;
+   color:#ffffff;
+}
 
 .logo-title{
    text-align: center;
@@ -38,6 +65,10 @@ body {
 .navbar-static-top{
    padding: 35px;
    background-color: #092038;
+}
+
+#socials{
+   padding: 5px;
 }
 
 .main-nav{
@@ -53,9 +84,6 @@ body {
    font-size: 72px;
    text-decoration: none;
 }
-.navbar-title:visited {color: #ffffff; text-decoration: none;}
-.navbar-title:hover {color: #89c9f4; text-decoration: none;}
-.navbar-title:active {color: #ffffff; text-decoration: none;}
 
 .navlinks{
    text-align: center;
@@ -79,11 +107,6 @@ body {
 .nav-link-active:visited {color: #0066cc; text-decoration: none;}
 .nav-link-active:hover {color: #ffffff; text-decoration: none;}
 .nav-link-active:active {color: #89c9f4; text-decoration: none;}
-
-.pdf-object{
-   width: 80%;
-   height: 1000px;
-}
 
 .bar-content{
    background-color: #cce1f5;
@@ -121,10 +144,6 @@ body {
    padding: 10px;
 }
 
-.widget{
-   data-width: 90%;
-}
-
 .home-bg{
    background-image: url("../img/home_bg.png");
    background-position:center center;
@@ -154,8 +173,6 @@ body {
    background-position:center center;
    background-size: 100%;
 }
-
-
 
 .social-bg h1 small{
    color:#0066cc;

@@ -1,142 +1,335 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
    <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="description" content="This is my homepage and my connection to the web.">
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+      <meta name="description" content="This is my social profile page on the web.">
+      <meta name="keywords" content="jay, wang, homepage, website, projects, resume, personal, social" />
       <meta name="author" content="Jay Wang">
-      <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
-
-      <title>Jay Wang - Social Profiles</title>
-
+      <link rel="shortcut icon" href="img/icons/favicon.ico" type="image/x-icon">
+      <link rel="icon" href="img/icons/favicon.ico" type="image/x-icon">
       <!-- Bootstrap core CSS -->
       <link href="css/bootstrap.min.css" rel="stylesheet">
-      <link href="css/index.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+      <link rel="stylesheet" type="text/css" href="css/page.css" />
+      <link rel="stylesheet" type="text/css" href="css/icons.css" />
+      <link rel="stylesheet" type="text/css" href="css/component.css" />
+      <link rel="stylesheet" type="text/css" href="css/index.css" />
+      <script src="js/modernizr.custom.js"></script>
+      <title>Jay Wang - Social Profile</title>
 
-      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-      <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-      <![endif]-->
    </head>
-
    <body>
-      <div id="fb-root"></div>
-      <script>(function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id))
-               return;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-            fjs.parentNode.insertBefore(js, fjs);
-         }(document, 'script', 'facebook-jssdk'));</script>
-      <!-- Fixed navbar -->
-      <div class="navbar-static-top social-bg">
-         <div class="container">
-            <div class="logo-title"><a class="navbar-title" name="top" href="index.html">Jay Wang</a></div>
-         </div>
-      </div>
+      <div id="st-container" class="st-container">
 
-      <div class="row navlinks">
-         <div class="col-xs-12 col-md-3">
-            <a class="nav-link" href="business.html"><span class="glyphicon glyphicon-briefcase"></span>  PROFESSIONAL PROFILE</a>
-         </div><div class="clearfix visible-xs"></div>
-         <div class="col-xs-12 col-md-3">
-            <a class="nav-link" href="projects.html"><span class="glyphicon glyphicon-folder-open"></span>  MY PROJECTS</a>
-         </div><div class="clearfix visible-xs"></div>
-         <div class="col-xs-12 col-md-3">
-            <a class="nav-link-active" href="social.html"><span class="glyphicon glyphicon-thumbs-up"></span>  SOCIAL PROFILES</a>
-         </div><div class="clearfix visible-xs"></div>
-         <div class="col-xs-12 col-md-3">
-            <a class="nav-link" href="contact.html"><span class="glyphicon glyphicon-envelope"></span>  CONTACT ME</a>
-         </div><div class="clearfix visible-xs"></div>
-      </div>
+         <nav class="st-menu st-effect-11" id="menu-11">
+            <h2>Jay Wang</h2>
+            <ul>
+               <li><a class="nav-link" href="index.html"><span class="glyphicon glyphicon-home"></span> HOME</a></li>
+               <li><a class="nav-link" href="professional.html"><span class="glyphicon glyphicon-briefcase"></span>  PROFESSIONAL PROFILE</a></li>
+               <li><a class="nav-link" href="projects.html"><span class="glyphicon glyphicon-folder-open"></span>  MY PROJECTS</a></li>
+               <li><a class="nav-link" href="social.html"><span class="glyphicon glyphicon-thumbs-up"></span>  SOCIAL PROFILE</a></li>
+               <li><a class="nav-link" href="contact.html"><span class="glyphicon glyphicon-envelope"></span>  CONTACT ME</a></li>
+            </ul>
+         </nav>
+
+         <!-- content push wrapper -->
+         <div class="st-pusher">
+
+            <div class="st-content"><!-- this is the wrapper for the content -->
+               <div class="st-content-inner"><!-- extra div for emulating position:fixed of the menu -->
+
+                  <!-- Fixed navbar -->
+                  <div class="navbar-static-top social-bg">
+                     <div class="container">
+                        <div class="logo-title"><p class="navbar-title">Jay Wang</p></div>
+                     </div>
+                  </div>
+                  <!-- Top Navigation -->
+                  <div class="codrops-top clearfix">
+                     <div id="st-trigger-effects">
+                        <button class="topMenuButton" data-effect="st-effect-11"><span class="glyphicon glyphicon-th"></span> Main Menu</button>
+
+                        <span id="socials" class="right">
+                           <a href="http://www.facebook.com/jaywang92">
+                              <img style="border:0;" src="img/Facebook.png" alt="Facebook" width="30" height="30"></a>
+
+                           <a href="http://www.linkedin.com/in/jaywang92">
+                              <img style="border:0;" src="img/LinkedIn.png" alt="LinkedIn" width="30" height="30"></a>
+
+                           <a href="https://plus.google.com/+JayWang92/">
+                              <img style="border:0;" src="img/Google.png" alt="Google Plus" width="30" height="30"></a>
+
+                           <a href="https://github.com/jayw92">
+                              <img style="border:0;" src="img/Github.png" alt="GitHub" width="30" height="30"></a>
+
+                           <a href="http://instagram.com/_jw92">
+                              <img style="border:0;" src="img/Instagram.png" alt="Instagram" width="30" height="30"></a>
+                        </span>
+                     </div>
+                  </div>
+                  <header class="codrops-header">
+                     <div class="page-header-box centered">
+                        <h1 class="page-title">SOCIAL PROFILE<br/><small>Here are some interesting facts about me!</small></h1>
+                     </div>
+                  </header>
+                  <div class="main clearfix content">
+                     <div class="clearfix">
+                        <div class="col-md-4"></div>
+                        <div class="col-xs-12 col-md-4 box-content centered">
+                           <h4>
+                              <a href="#" id="scrollToGallery">Jump to Gallery</a>
+                           </h4>
+                        </div>
+                     </div>
+                     <div class="clearfix">
+                        <div class="col-xs-12 col-md-1">
+                        </div>
+                        <div class="col-xs-12 col-md-8">
+                           <h2><span class="glyphicon glyphicon-user"></span>  My Life - Short Version</h2>
+                        </div>
+                     </div>
+                     <div class="clearfix">
+                        <div class="col-xs-12 col-md-2">
+                        </div>
+                        <div class="col-xs-12 col-md-8">
+                           <p><strong>Family: </strong>I am the oldest child in my family. 
+                              Other than myself, there is also my sister Nancy, who is ten years younger than me.
+                              I took care of her when she was growing up and love to spend time and joke around with her.
+                              My father is in academia and is currently a Director for the Chinese Academy of Sciences, at Xinjiang Technical Institute of Physics & Chemistry.
+                           </p>
+                           <p><strong>Early Childhood: </strong>I was born on February 5, 1992 in China near the city of Shanghai. 
+                              I lived in China with my grandparents for 5 years in a rural village. 
+                              The village focused mostly on farming and fishing (because it was near a river).
+                              In comparison to large cities, I find that where I spent my early childhood was way more
+                              beautiful and had a lot of nature.
+                           </p>
+                           <p><strong>To Germany: </strong> I moved to Germany in 1998 because my father was working there in the Chemistry field.
+                              I lived in Hannover for one year and Berlin the next year, 
+                              and I attended 1st and 2nd grade in Germany. I learned to speak, read, and write German after 2 months.
+                              I love how clean Europe was in terms of street rodents and pests, but many people smoked.
+                           </p>
+                           <p><strong>Landing in the US: </strong>I moved to Boston in 2000 when my father worked at Tufts University as a researcher
+                              and I have lived here since then.
+                              I picked up English in 3 months and attended Lucy Stone Elementary in Dorchester.
+                              I was one of the only Asian kids at my school (literally), but my classmates liked me and became
+                              my friends after a few weeks.
+                           </p>
+                           <p><strong>Boston Latin School (High School): </strong>I took the ISEE test and got into Boston Latin School
+                              and attended from 7th till 12th grade. Boston Latin School is the oldest school in the United States (est. in 1635).
+                              Many famous people in history and politics attended Boston Latin School before me so it is a well-known school,
+                              especially in Boston. I really enjoyed my time there and many of the friendships I formed at BLS are still
+                              continuing and I got to know many of my closest friends at that school.
+                           </p>
+                           <p><strong>University: </strong>I got accepted into Tufts University in senior year of high school.
+                              I really liked Tufts out of the other colleges I had visited because it seemed to be a really good
+                              environment for me and people were very friendly. I meet a lot of great friends at Tufts as well and 
+                              the years went by very fast. I majored in Computer Science, as a Bachelor of Science, because it
+                              was something that I was always interested in.
+                           </p>
+                        </div>
+                     </div>
 
 
-      <div class="container centered">
-
-         <div class="page-header-box">
-            <h1 class="page-title">SOCIAL PROFILES<br/><small>Here are some ways to get to know me through social media.</small></h1>
-         </div><br />
-
-         <div class="container">
-            <div class="row">
-               <div class="col-md-2"></div>
-               <div class="col-xs-12 col-md-4 box-content"><h3>Facebook/jaywang92</h3>
-                  <a href="http://www.facebook.com/jaywang92">
-                     <img style="border:0;" src="img/Facebook.png" alt="Facebook" width="256" height="256"></a>
-               </div>
-               <div class="col-xs-12 col-md-4 box-content"><h3>LinkedIn/jaywang92</h3>
-                  <a href="http://www.linkedin.com/in/jaywang92">
-                     <img style="border:0;" src="img/LinkedIn.png" alt="LinkedIn" width="256" height="256"></a>
-               </div>
-            </div>
-
-            <div class="row">
-               <div class="col-md-2"></div>
-               <div class="col-xs-12 col-md-4 box-content"><h3>Google+/+JayWang92</h3>
-                  <a href="https://plus.google.com/+JayWang92/">
-                     <img style="border:0;" src="img/Google.png" alt="Google Plus" width="256" height="256"></a>
-               </div>
-               <div class="col-xs-12 col-md-4 box-content"><h3>GitHub/jayw92</h3>
-                  <a href="https://github.com/jayw92">
-                     <img style="border:0;" src="img/Github.png" alt="GitHub" width="256" height="256"></a>
-               </div>
-            </div>
-
-            <div class="row">
-               <div class="col-md-2"></div>
-               <div class="col-xs-12 col-md-4 box-content"><h3>Skype/jayw92</h3>
-                  <a href="http://www.skype.com">
-                     <img style="border:0;" src="img/skype.png" alt="Skype" width="256" height="256"></a>
-               </div>
-               <div class="col-xs-12 col-md-4 box-content"><h3>Instagram/_jw92</h3>
-                  <a href="http://instagram.com/_jw92">
-                     <img style="border:0;" src="img/Instagram.png" alt="Instagram" width="256" height="256"></a>
-               </div>
-            </div>
-
-            <div class="row">
-               <div class="col-md-2"></div>
-               <div class="col-xs-12 col-md-8 centered">
-                  <h3>Feel free to comment or message below!</h3>
-                  <div id="disqus_thread"></div>
-                  <script type="text/javascript">
-                     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-                     var disqus_shortname = 'jayw92'; // required: replace example with your forum shortname
-
-                     /* * * DON'T EDIT BELOW THIS LINE * * */
-                     (function() {
-                        var dsq = document.createElement('script');
-                        dsq.type = 'text/javascript';
-                        dsq.async = true;
-                        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-                     })();
-                  </script>
-                  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                  <a href="http://disqus.com" class="dsq-brlink">Comments powered by <span class="logo-disqus">Disqus</span></a>
-               </div>
-            </div><hr>
-
-         </div>
-
-      </div>
-
-      <div id="footer">
-         <div class="container">
-            <p><a class="footer-link" href="#top"><span class="glyphicon glyphicon-chevron-up"></span> Back To Top <span class="glyphicon glyphicon-chevron-up"></span></a></p>
-            <p><span class="glyphicon glyphicon-copyright-mark"></span> 2014 Jay Wang. All Rights reserved.</p> 
-         </div>
-      </div>
+                     <div class="clearfix">
+                        <div class="col-xs-12 col-md-1">
+                        </div>
+                        <div class="col-xs-12 col-md-8">
+                           <h2><span class="glyphicon glyphicon-star-empty"></span>  Things I Like</h2>
+                        </div>
+                     </div>
+                     <div class="clearfix">
+                        <div class="col-xs-12 col-md-2">
+                        </div>
+                        <div class="col-xs-12 col-md-8">
+                           <p><strong>Nature: </strong>I find it peaceful to walk in nature and explore new places like public gardens and parks.</p>
+                           <p><strong>Food: </strong>I love trying new food and restaurants with my friends. 
+                              If you feel the same way and have good places to recommend we will surely become friends.</p>
+                           <p><strong>Art: </strong>I love going to museums and enjoying works of history. Visited the MFA many times now, but it doesn't get old.</p>
+                           <p><strong>Cinema/TV: </strong>I have watched many films in the US, movies have always intrigued me since I was a kid.</p>
+                           <p><strong>Sports: </strong>My favorite is basketball, I humbly add that I might be quite good at it.
+                              I always enjoy playing against new people and teamwork is very crucial.</p>
+                           <p><strong>Technology: </strong>Technology can be very powerful and it is amazing to me how far we have come since the Stone Age.</p>
+                           <p><strong>Culture: </strong>I am always embracing opportunities given to me to learn about new cultures.
+                              I think it helps me keep and open mind and connect with people around the world.</p>
+                           <p><strong>Literature: </strong>I read things that interests me like news and interesting facts to keep my brain
+                              in an active learning state.</p>
+                           <p><strong>People: </strong>I really enjoy talking to new people and getting to know them better.
+                              Everyone has different stories to tell and it always interests me to see what 
+                              other people went through in life and how they think about the world.</p>
+                           <p><strong>Language: </strong>Similar to culture. I am learning Italian right now and it's a really fun experience.
+                              I want to learn other languages as I get older, and I plan to learn Brazilian Portuguese next.</p>
+                           <p><strong>Music: </strong>I like to dance and listen to music because it is fun and helps relieve stress, which isn't good to have.</p>
+                        </div>
+                     </div>
 
 
+
+                     <div class="clearfix">
+                        <div class="col-xs-12 col-md-1">
+                        </div>
+                        <div class="col-xs-12 col-md-8">
+                           <h2><span class="glyphicon glyphicon-cutlery"></span>  Some Favorite Local Restaurants</h2>
+                        </div>
+                     </div>
+                     <div class="clearfix">
+                        <div class="col-md-2"></div>
+                        <div class="col-xs-12 col-md-8 well">
+                           <div class="col-xs-12 col-md-3 centered">
+                              <p><a href="http://www.bonchon.com"><img style="border:0;" src="https://pbs.twimg.com/profile_images/1914386631/bonchon_logo_2010.jpg" alt="BonChon" width="100" height="100"></a></p>
+                           </div>
+                           <div class="col-xs-12 col-md-9">
+                              <p>The Allston branch is one of my favorites compared to other branches in Boston.
+                                 The Soy Garlic Chicken Strips are the best and they also serve really good Korean and 
+                                 Japanese dishes such as different kinds of sushi. There is a small bar to sit down at 
+                                 so they do serve alcohol there.</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="clearfix">
+                        <div class="col-md-2"></div>
+                        <div class="col-xs-12 col-md-8 well">
+                           <div class="col-xs-12 col-md-3 centered">
+                              <p><a href="http://www.bertuccis.com/"><img style="border:0;" src="http://www.brandsoftheworld.com/sites/default/files/styles/logo-thumbnail/public/0024/9258/brand.gif" alt="Bertuccis" width="100" height="100"></a></p>
+                           </div>
+                           <div class="col-xs-12 col-md-9">
+                              <p>I love Italian food and Bertucci's has really good Pizza and many different Italian dishes.
+                                 One of my favorite appetizers is the Tuscan Wings. The rolls and oil that they serve
+                                 for free is also quite good.</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="clearfix">
+                        <div class="col-md-2"></div>
+                        <div class="col-xs-12 col-md-8 well">
+                           <div class="col-xs-12 col-md-3 centered">
+                              <p><a href="http://shabuzen.com/"><img style="border:0;" src="http://shabuzen.com/images/topmid_home.gif" alt="ShabuZhen" width="100" height="75"></a></p>
+                           </div>
+                           <div class="col-xs-12 col-md-9">
+                              <p>Shabu-Zen is in Allston and has authentic Asian "Hot-Pot" cuisine. It is really good to go there in the winter
+                                 because the pot that you cook the food in is always hot and especially good if the soup base is spicy.</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="clearfix">
+                        <div class="col-md-2"></div>
+                        <div class="col-xs-12 col-md-8 well">
+                           <div class="col-xs-12 col-md-3 centered">
+                              <p><a href="http://www.yelp.com/biz/sunset-grill-and-tap-allston"><img style="border:0;" src="http://wp.streetwise.co/wp-content/uploads/2012/09/Sunset_Grill_Color_Logo-jpg.jpg" alt="Sunset" width="100" height="75"></a></p>
+                           </div>
+                           <div class="col-xs-12 col-md-9">
+                              <p>Sunset Grill and Tap is good for getting food and some drinks to go with it. There Cajun curly fries are
+                                 delicious and the portions they serve are big. They have a long list of drinks you can order as well.</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="clearfix">
+                        <div class="col-md-2"></div>
+                        <div class="col-xs-12 col-md-8 well">
+                           <div class="col-xs-12 col-md-3 centered">
+                              <p><a href="http://www.taverninthesquare.com/"><img style="border:0;" src="http://www.taverninthesquare.com/sites/default/files/new%20menu.png" alt="Sunset" width="100" height="100"></a></p>
+                           </div>
+                           <div class="col-xs-12 col-md-9">
+                              <p>Tavern In The Square is everywhere in Boston and the one in Allston is also quite nice.
+                                 This is more of a bar and so only 21 or older can get in.
+                                 They have a lot of different drinks and there are even small TVs on the walls next to the booths.
+                                 This is a fun place to go with friends to watch a football or basketball game.</p>
+                           </div>
+                        </div>
+                     </div>
+
+                     <br>
+
+
+                     <div class="clearfix centered" id="gallery">
+                        <h1>Gallery</h1>
+                        <a href="img/personal/childme.png">
+                           <img style="border:0;" src="img/personal/childme.png" alt="Me" width="200" height="200"></a>
+                        <a href="img/personal/eu1.jpg">
+                           <img style="border:0;" src="img/personal/eu1.jpg" alt="Me" width="280" height="200"></a>
+                        <a href="img/personal/me.jpg">
+                           <img style="border:0;" src="img/personal/me.jpg" alt="Me" width="200" height="200"></a>
+                        <a href="img/personal/eu2.jpg">
+                           <img style="border:0;" src="img/personal/eu2.jpg" alt="Me" width="280" height="200"></a>
+                        <a href="img/personal/usa1.jpg">
+                           <img style="border:0;" src="img/personal/usa1.jpg" alt="Me" width="280" height="200"></a>
+                        <a href="img/personal/school1.jpg">
+                           <img style="border:0;" src="img/personal/school1.jpg" alt="Me" width="280" height="200"></a>
+                        <a href="img/personal/friends2.jpg">
+                           <img style="border:0;" src="img/personal/friends2.jpg" alt="Me" width="280" height="200"></a>
+                        <a href="img/personal/friends4.jpg">
+                           <img style="border:0;" src="img/personal/friends4.jpg" alt="Me" width="300" height="200"></a>
+                        <a href="img/personal/ger1.jpg">
+                           <img style="border:0;" src="img/personal/ger1.jpg" alt="Me" width="300" height="200"></a>
+                        <a href="img/personal/ger2.jpg">
+                           <img style="border:0;" src="img/personal/ger2.jpg" alt="Me" width="300" height="200"></a>
+                        <a href="img/personal/ger3.jpg">
+                           <img style="border:0;" src="img/personal/ger3.jpg" alt="Me" width="300" height="200"></a>
+                        <a href="img/personal/ger4.jpg">
+                           <img style="border:0;" src="img/personal/ger4.jpg" alt="Me" width="300" height="200"></a>
+                     </div>
+                     <br>
+                     <div class="clearfix">
+                        <div class="col-md-2"></div>
+                        <div class="col-xs-12 col-md-8 centered">
+                           <h3>Leave a comment below</h3>
+                           <div id="disqus_thread"></div>
+                           <script type="text/javascript">
+                              /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                              var disqus_shortname = 'jayw92'; // required: replace example with your forum shortname
+
+                              /* * * DON'T EDIT BELOW THIS LINE * * */
+                              (function() {
+                                 var dsq = document.createElement('script');
+                                 dsq.type = 'text/javascript';
+                                 dsq.async = true;
+                                 dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                                 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                              })();
+                           </script>
+                           <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                           <a href="http://disqus.com" class="dsq-brlink">Comments powered by <span class="logo-disqus">Disqus</span></a>
+                        </div>
+                     </div><br>
+                  </div><!-- /main -->
+                  <div id="footer" class="clearfix centered">
+                     <p><span class="glyphicon glyphicon-copyright-mark"></span> 2014 Jay Wang. All Rights reserved.</p>
+                  </div>
+               </div><!-- /st-content-inner -->
+            </div><!-- /st-content -->
+            <button class="back-to-top"><span class="glyphicon glyphicon-chevron-up"></span> Back To Top <span class="glyphicon glyphicon-chevron-up"></span></button>
+         </div><!-- /st-pusher -->
+      </div><!-- /st-container -->
       <!-- Bootstrap core JavaScript
       ================================================== -->
       <!-- Placed at the end of the document so the pages load faster -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+      <script type="text/javascript">
+                              //Scroll to top functionality
+                              $(document).ready(function() {
+                                 var offset = 200;
+                                 var duration = 500;
+                                 $('.st-content').scroll(function() {
+                                    if (jQuery(this).scrollTop() > offset) {
+                                       jQuery('.back-to-top').fadeIn(duration);
+                                    } else {
+                                       jQuery('.back-to-top').fadeOut(duration);
+                                    }
+                                 });
+
+                                 $('.back-to-top').click(function() {
+                                    $('.st-content').animate({scrollTop: 0}, duration);
+                                    return false;
+                                 });
+                                 $('#scrollToGallery').click(function(event) {
+                                    $('.st-content').animate({scrollTop: $('#gallery').position().top}, duration);
+                                    return false;
+                                 });
+                              });
+      </script>
       <script src="js/bootstrap.min.js"></script>
+      <script src="js/classie.js"></script>
+      <script src="js/sidebarEffects.js"></script>
    </body>
 </html>
